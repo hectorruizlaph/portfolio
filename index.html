@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" media="screen and (min-width: 700px)" type="text/css">
+    <link rel="stylesheet" href="mobil.css" type="text/css"
+    media="screen and (max-width: 700px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<STYLE>A {text-decoration: none;} </STYLE>
+<body>
+    <nav id="navbar">
+        <a href="#projects" class="navlink">Projects</a>
+        <a href="#profile-link" class="navlink">Github</a>
+        <a href="#contact" class="navlink">Contact</a>
+    </nav>
+    <section id="welcome-section">
+        <div id="welcome1">
+            <h1>Let's Create <br> Awesome Things </h1>
+            <img id="welcome-img" src="./assets/hand3.svg" alt="hand">
+        </div>
+        <div id="welcome2">
+            <a href="#projects">
+            <h5>Check some projects</h5>
+            <img id="chevron" height="150px" src="./assets/arrowdown.svg" alt="godown">
+            </a>
+        </div>
+    </section>
+    <section id="projects">
+        <div id="projectsbox">
+            <a href="https://hectorbananas.github.io/tribute-page/ " target="_blank">
+            <div class="project">
+                <h2 id="project-tile">Tribute Page</h2>
+            </div>
+            </a>
+            <a href="https://hectorbananas.github.io/survey-form/" target="_blank">
+            <div class="project">
+                <h2 id="project-tile">Survey Form</h2>
+            </div>
+            </a>
+            <a href="https://hectorbananas.github.io/technical-documentation/" target="_blank">
+            <div class="project">
+                <h2 id="project-tile">Technical Documentation</h2>
+            </div>
+            </a>
+            <a href="https://hectorbananas.github.io/landing-page/" target="_blank">
+            <div class="project">
+                <h2 id="project-tile">Landing Page</h2>
+            </div>
+            </a>
+        </div>
+    </section>
+    <section id="profile-link">
+        <a href="https://github.com/hectorBananas" target="_blank">
+            <div class="project" id="profile-link">
+                <h2>Check My Github</h2>
+                <img width="100px" src="./assets/github.svg" alt="my-github">
+            </div>
+            </a>
+    </section>
+    <section id="contact">
+        <form action="mailto:hectorruizlaph@gmail.com">
+            <div class="form1">
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="form3">
+                <label for="email">Your Email: </label>
+                <input type="email" name="email" id="email" placeholder="Your best email..">
+            </div>
+            <div class="form2">
+                <label for="subject">How can I help You?</label>
+                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+            </div>
+            
+            <input id="submit" type="submit" value="Submit">
+        
+
+        </form>
+    </section>
+</html>
